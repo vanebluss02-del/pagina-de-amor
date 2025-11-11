@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Página de Amor</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Great Vibes', cursive;
+    color: white;
+    background: radial-gradient(#0a0a3a, #000);
+    overflow-x: hidden;
+    line-height: 1.8em;
+}
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px 20px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 20px;
+    text-align: justify;
+    position: relative;
+    z-index: 10;
+}
+.dedicatoria {
+    font-size: 1.6em;
+}
+.stars {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: url('https://i.ibb.co/0j2fH0c/stars.png') repeat;
+    animation: moveStars 60s linear infinite;
+    z-index: 0;
+}
+@keyframes moveStars {
+    from {background-position: 0 0;}
+    to {background-position: -10000px 0;}
+}
+.medusa {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 30% 30%, #6fcfff, #2b86ff);
+    opacity: 0.6;
+    animation: floatMedusa linear infinite;
+}
+@keyframes floatMedusa {
+    0% {transform: translateY(0) translateX(0);}
+    50% {transform: translateY(100px) translateX(50px);}
+    100% {transform: translateY(0) translateX(0);}
+}
+.heart {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: red;
+    clip-path: polygon(50% 0%, 61% 17%, 79% 18%, 90% 32%, 90% 55%, 78% 71%, 50% 100%, 22% 71%, 10% 55%, 10% 32%, 21% 18%, 39% 17%);
+    animation: floatHeart 10s linear infinite;
+}
+@keyframes floatHeart {
+    0% {transform: translateY(0);}
+    50% {transform: translateY(-200px);}
+    100% {transform: translateY(0);}
+}
+</style>
+</head>
+<body>
+<div class="stars"></div>
+<div class="medusa" style="top:10%; left:20%; animation-duration:15s;"></div>
+<div class="medusa" style="top:40%; left:70%; animation-duration:20s;"></div>
+<div class="medusa" style="top:70%; left:50%; animation-duration:18s;"></div>
+<div class="heart" style="top:80%; left:10%; animation-duration:12s;"></div>
+<div class="heart" style="top:90%; left:60%; animation-duration:14s;"></div>
+<div class="heart" style="top:20%; left:80%; animation-duration:16s;"></div>
+<div class="container">
+<div class="dedicatoria">
+No sé cómo, cuándo exactamente esos ojos se volvieron mi refugio, pero desde entonces todo contigo ha sido luz y calor. Recuerdo la primera vez que te vi de otra manera, no como amigos: ese instante en que me invitaste fresas, y sentí algo que nunca había sentido antes. Cuando me invitaste, fue tan lindo… un momento que aún guardo con todo mi corazón. Eso que hiciste me hizo poner nerviosa, y yo no sabía qué decir ni cómo reaccionar… Todo eso se volvió un tesoro que siempre recordaré.<br><br>
+Nuestro primer beso fue torpe, dulce, liberador. Recuerdo esconderme en mi cabello, sentir los latidos mezclados y pensar que nunca antes había sentido algo tan intenso. Cada abrazo contigo es un refugio; cada videollamada, un instante donde el mundo desaparece y solo existimos tú y yo.<br><br>
+Amo cada regalo y detalle: el patito que brilla, la Kuromi que me diste cuando todo parecía tan simple y hermoso; incluso guardo el empaque en mi celular, para tener siempre cerca el recuerdo de tu cariño. Amo la playera de la secundaria que me diste y todos los mensajes que acompañaron esos pequeños regalos.<br><br>
+Uno de mis días favoritos fue cuando fuimos a la plaza por tu cumpleaños. Me la pasé increíble, me sentí increíble… y fue uno de esos momentos que nunca quiero olvidar. También recuerdo esa vez que fuimos a la escuela en pijama, y cómo nos acomodamos en el suelo… la primera vez que me acosté contigo ahí fue tan relajante, tan nuestro. Momentos simples que se vuelven inolvidables solo porque estás tú.<br><br>
+Me haces sentir tanto, que a veces me asusta. Pero también me haces reír, me haces jugar, me haces sentir que puedo ser yo misma, completa y tranquila. Amo tus PowerPoints, tus textos de Buenas Noches, los juegos que compartimos, las pequeñas cosas que solo tú sabes hacer. Amo que estés conmigo, incluso en los días simples, porque contigo todo se vuelve especial.<br><br>
+Y te amo. Te amo como amo a las estrellas: con asombro, con calma, con la certeza de que nada en el mundo podría cambiar lo que siento. Te amo por lo que eres, por lo que me haces sentir, por cada instante que has hecho mi vida más brillante. Como en <i>Los pájaros cantores y las serpientes</i>, cuando dos personas se encuentran en medio del caos, a veces el corazón sabe exactamente dónde quiere estar… el mío siempre contigo.<br><br>
+Este año contigo ha sido un regalo que nunca dejaré de atesorar, y doy gracias por cada risa, cada abrazo, cada momento. Ojalá podamos seguir construyendo recuerdos, jugando, riendo, amándonos… siempre.
+</div>
+</div>
+<!-- Reproductor de YouTube embebido, invisible -->
+<iframe width="0" height="0" src="https://www.youtube.com/embed/yQDAXknlVL8?autoplay=1&loop=1&playlist=yQDAXknlVL8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</body>
+</html>
